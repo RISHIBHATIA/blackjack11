@@ -38,6 +38,8 @@ var Cardinals = new Team("Cardinals",'AZ',"70000","0",true,"Drew Rosenberg",300)
 var Rams= new Team("LA Rams","CA","4000","1",true,"Jred Goff",402);
 console.log(Rams.QB);
 
+var $49ers= new Team("49ERS", "CA", "899","4", true, "Jimmy G", 111);
+
 if (Redskins.salary < Raiders.salary){console.log("Redskins are Higher than the Raiders");} else {
 	console.log("Redskins are less than the raiders coming at "+(Redskins.salary) + "million");
 };
