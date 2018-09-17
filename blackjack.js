@@ -45,4 +45,5 @@ else {console.log("r");
 
 //var hit =prompt("Do you want to hit ?");
  //var alpha = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+// editing for git 
  
