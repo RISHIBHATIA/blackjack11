@@ -19,7 +19,7 @@ console.log("Player two has" + total2);
 function dealerHand() {
 var count1=Math.floor(Math.random()*10+1);
 var count2=Math.floor(Math.random()*10+1);
-var totald=count1+count2
+return totald=count1+count2
 console.log("Dealer has" + totald);
 }
 
@@ -32,6 +32,12 @@ if (player1Hand() < dealerHand()){
 console.log("Player One has" + player1Hand() +"is Beating the dealer" + dealerHand);}
 else {console.log("r");
 }
+
+function Evaluate(dealerhand(),playerHand()) {
+  if (player1Hand() < dealerHand())
+ 
+}
+
 
 
 
