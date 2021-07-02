@@ -1,18 +1,16 @@
-console.log("hello ");
 
 function player1Hand() {
-var count1=Math.floor(Math.random()*10+1);
-var count2=Math.floor(Math.random()*10+1);
-var total1=count1+count2
-console.log("Player one has" + total1);
-}
+let  count1=Math.floor(Math.random()*10+1);
+let  count2=Math.floor(Math.random()*10+1);
+return total1=count1+count2 }
+
 
 
 
 function player2Hand() {
 var count1=Math.floor(Math.random()*10+1);
 var count2=Math.floor(Math.random()*10+1);
-var total2=count1+count2
+return  total2=count1+count2
 console.log("Player two has" + total2);
 }
 
@@ -24,32 +22,27 @@ console.log("Dealer has" + totald);
 }
 
 
-player1Hand()
+console.log(player1Hand() + dealerHand())
 player2Hand()
 dealerHand()
 
-if (player1Hand() < dealerHand()){
-console.log("Player One has" + player1Hand() +"is Beating the dealer" + dealerHand);}
-else {console.log("r");
+// if (player1Hand() < dealerHand()){
+// console.log("Player One has"+'' + player1Hand() +"is Beating the dealer" + dealerHand);}
+// else {console.log();
+// }
+
+function Evaluate(x,y){
+    let Player1 = x
+    let Dealer = y 
+    if (Dealer > Player1){
+        console.log('Dealer WINS! holding'+''+Dealer + 'Player 1 holds'+''+Player1)
+    } else{
+        console.log('Player1 WINS! holding'+' '+Player1 + 'Dealer holds '+''+Dealer)    
+
+    }
+
+    return x
+
 }
 
-function Evaluate(dealerhand(),playerHand()) {
-  if (player1Hand() < dealerHand())
- 
-}
-
-
-
-
-// make a method in a function 
-
-
-//if player1Hand() == dealerHand() 
-//console.log("it's a push");
-//else 
-//console.log ("on the right tack ");
-
-//var hit =prompt("Do you want to hit ?");
- //var alpha = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-// editing for git 
- 
+Evaluate(dealerHand(),player1Hand())  
